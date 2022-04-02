@@ -25,7 +25,6 @@
 
         // Build the email content.
         $email_content = "First Name: $name\n";
-        $email_content = "Last Name: $lname\n";
         $email_content .= "Email: $email\n\n";
         $email_content .= "Subject: $subject\n\n";
         $email_content .= "Message:\n$message\n";
